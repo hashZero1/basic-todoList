@@ -30,6 +30,7 @@ class Todo extends Component {
         this.setState({isEditing: false});
     }
     render(){
+      //conditional to toggle the edit form 
         let results;
         if(this.state.isEditing){
             results = (
