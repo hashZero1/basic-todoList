@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TodolistForm from './TodolistForm';
 import Todo from './Todo';
 
+//This is the main/parent component
 class Todolist extends Component {
   constructor(props) {
     super(props);
